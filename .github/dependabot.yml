@@ -1,0 +1,11 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+{"SPDXID":"SPDXRef-DOCUMENT","spdxVersion":"SPDX-2.3","creationInfo":{"created":"2024-07-28T02:06:21Z","creators":["Tool: GitHub.com-Dependency-Graph"]},"name":"com.github.dodi140996/.github","dataLicense":"CC0-1.0","documentDescribes":["SPDXRef-com.github.dodi140996-.github"],"documentNamespace":"https://github.com/dodi140996/.github/dependency_graph/sbom-b9a1928579f0892a","packages":[{"SPDXID":"SPDXRef -com.github.dodi140996-.github","name":"com.github.dodi140996/.github","versionInfo":"","downloadLocation":"git+https://github.com/dodi140996/.github","filesAnalyzed":false,"supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceType":"purl","referenc eLocator":"pkg:github/dodi140996/.github"}]},{"SPDXID":"SPDXRef-tindakan-tindakan-skrip-github-6.*.*","nama":"tindakan:tindakan/skrip-github","versionInfo":"6.*.*","lokasiUnduh":"TIDAK ADA PENYELESAIAN","fileAnalyzed":false,"pemasok":"TIDAK ADA PENYELESAIAN","RefEksternal":[{"KategoriReferensi":"PACKA MANAJER GE","pencari referensi":"pkg:githubtindakan/tindakan/github-script@6.%2A.%2A","tipe referensi":"purl"}]}],"hubungan":[{"tipe hubungan":"TERGANTUNG_PADA","spdxElementId":"SPDXRef-com.github.dodi140996-.github","terkaitSpdxElement":"SPDXRef-tindakan-tindakan-github-script-6.*.*"}]}
+version: 2
+updates:
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
